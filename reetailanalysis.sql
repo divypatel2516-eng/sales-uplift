@@ -1,9 +1,7 @@
--- ========================================================
--- Project: Sales Uplift: Strategy Insights from Multi-Region Retail Data
--- File: RetailAnalysis.sql
--- ========================================================
 
--- 1. Total sales amount per region for the last quarter (Q3: July to September)
+-- Project: Sales Uplift: Strategy Insights from Multi-Region Retail Data
+
+-- 1. Total sales amount per region for the last quarter 
 SELECT 
     Region, 
     SUM(TotalAmount) AS Total_Sales
